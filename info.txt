@@ -1,0 +1,5 @@
+run these files using xampp locally on your computer 
+1.Copy these files to htdocs folder in xampp.
+2.Open Xampp Application and run Apache module.
+3.Open browser and type localhost/pro/page.php
+  here "pro" is the name of the directory that the files are contained in and you can name it as your wish.
