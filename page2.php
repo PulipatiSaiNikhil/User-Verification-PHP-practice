@@ -106,7 +106,7 @@ session_start();
                                       <input style="border:0.5px solid;" data-toggle="tooltip"
                                           title="Please ensure you fill this field" required type="number"
                                           class="form-control" id="age" name="age"
-                                          placeholder="Enter your Age(>=18)"
+                                          placeholder="Enter your Age(greater than 18)"
                                           value="<?php echo isset($_POST["age"]) ? htmlspecialchars($_POST["age"], ENT_QUOTES) : ''; ?>">
                                   </div>
                               </div>
