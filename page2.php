@@ -85,7 +85,7 @@ session_start();
       <div class="container h-100">
           <div class="mt-5 row d-flex justify-content-center h-100">
               <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                  <div class="card" style="border-radius: 15px;">
+                  <div class="card" style="border-radius: 15px;background-color:#bce9ee;">
                       <div class="card-body p-5">
                           <h2 class="text-uppercase text-center mb-5">Form Verification</h2>
 
