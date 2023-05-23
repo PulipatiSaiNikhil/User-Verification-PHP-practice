@@ -9,14 +9,22 @@ $name=$_SESSION["name"];
   <head>
     <meta charset="utf-8">
     <title>Verification Success</title>
-
+    <style media="screen">
+      *{
+        background-color: #caedec;
+      }
+      .heading{
+        text-align: center;
+        padding-top:250px;
+      }
+    </style>
   </head>
   <body>
+    <?php echo '<script>alert("User-Verification Success!")</script>'; ?>
+    <div class="heading">
+      <h1>Thankyou for filling this form <?php echo $name; ?></h1>
 
-<?php
+    </div>
 
-echo '<script>alert("User-Verification Success!")</script>';
-
-?>
   </body>
 </html>
