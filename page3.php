@@ -16,15 +16,20 @@ $name=$_SESSION["name"];
       .heading{
         text-align: center;
         padding-top:250px;
+        font-family: serif;
       }
     </style>
   </head>
   <body>
-    <?php echo '<script>alert("User-Verification Success!")</script>'; ?>
     <div class="heading">
       <h1>Thankyou for filling this form <?php echo $name; ?></h1>
 
     </div>
 
   </body>
+  <script type="text/javascript">
+     window.onload = function(){
+       alert('User-Verification Success!');
+     }
+  </script>
 </html>
