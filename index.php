@@ -10,6 +10,7 @@
     $email=$_POST["mail"];
     $w="@gmail.com";
     $_SESSION["name"]=$name;
+    $_SESSION["email"]=$email;
     //var_dump(str_contains($email,$w));
     //echo $name." ".$number." ".$email;
     if(strlen($name)==0 || empty($name)){
@@ -22,7 +23,7 @@
       $checkemail="Please re-enter your Email.";
     }
     else{
-      header("location:page2.php?name='.$name.'");
+      header("location:page2.php?name='.$name.'?email='.$email.'");
     }
   }
 

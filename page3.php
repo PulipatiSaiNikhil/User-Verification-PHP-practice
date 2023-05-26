@@ -1,6 +1,7 @@
 <?php
 session_start();
 $name=$_SESSION["name"];
+$email=$_SESSION["email"];
 
 ?>
 
@@ -29,7 +30,7 @@ $name=$_SESSION["name"];
   </body>
   <script type="text/javascript">
      window.onload = function(){
-       alert('User-Verification Success!');
+       alert('User-Verification Success, sent mail to <?php echo $email; ?>');
      }
   </script>
 </html>

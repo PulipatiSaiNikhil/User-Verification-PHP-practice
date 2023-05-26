@@ -1,6 +1,6 @@
 <?php
 session_start();
- if(!isset($_SESSION["name"])){
+ if(!isset($_SESSION["name"]) || !isset($_SESSION["email"])){
    header("location:index.php");
    exit();
  }
@@ -10,7 +10,8 @@ session_start();
  //if (isset($_POST["address"]) && isset($_POST["age"]) && isset($_POST["university"])) {
   if($_SERVER["REQUEST_METHOD"]=="POST"){
      $name=$_SESSION["name"];
-     //echo $name1;
+     $email=$_SESSION["email"];
+     //echo $name;
     $address=$_POST["address"];
     $age=$_POST["age"];
     $university=$_POST["university"];
@@ -24,7 +25,7 @@ session_start();
       $checkuniversity="Please re-enter the University name.";
     }
     else{
-        header("location:page3.php?name2='.$name.'");
+        header("location:page3.php?name='.$name.'?email='.$email.'");
     }
   }
 ?>
@@ -81,7 +82,6 @@ session_start();
               </div>';
           }
       ?>
-
       <div class="container h-100">
           <div class="mt-5 row d-flex justify-content-center h-100">
               <div class="col-12 col-md-9 col-lg-7 col-xl-6">
