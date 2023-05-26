@@ -1,7 +1,7 @@
 <?php
 session_start();
  if(!isset($_SESSION["name"])){
-   header("location:page1.php");
+   header("location:index.php");
    exit();
  }
  $checkaddress = false;

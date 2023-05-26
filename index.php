@@ -89,7 +89,7 @@
                         <div class="card-body p-5">
                             <h2 class="text-uppercase text-center mb-5">Form Verification</h2>
 
-                            <form action=page1.php method="post">
+                            <form action=index.php method="post">
                                 <div class="form-group row">
                                     <label for="name" class="col-sm-3 col-form-label">Name:</label>
                                     <div class="col-sm-9">
