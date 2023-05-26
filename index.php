@@ -23,7 +23,7 @@
       $checkemail="Please re-enter your Email.";
     }
     else{
-      header("location:page2.php?name='.$name.'?email='.$email.'");
+      header("location:page2.php");
     }
   }
 

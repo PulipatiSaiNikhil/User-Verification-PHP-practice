@@ -2,7 +2,7 @@
 session_start();
 $name=$_SESSION["name"];
 $email=$_SESSION["email"];
-
+$msg="Thankyou for filling the Verification form";
 ?>
 
 <!DOCTYPE html>

@@ -25,7 +25,7 @@ session_start();
       $checkuniversity="Please re-enter the University name.";
     }
     else{
-        header("location:page3.php?name='.$name.'?email='.$email.'");
+        header("location:page3.php");
     }
   }
 ?>
