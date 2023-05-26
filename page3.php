@@ -25,8 +25,6 @@ $msg="Thankyou for filling the Verification form";
     <div class="heading">
       <h1>Thankyou for filling this form <?php echo $name; ?></h1>
 
-    </div>
-
   </body>
   <script type="text/javascript">
      window.onload = function(){
